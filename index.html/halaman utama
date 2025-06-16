@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Penyimpanan Tugas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daftar Tugas</h1>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Tulis tugas baru..." required>
+      <button type="submit">Tambah</button>
+    </form>
+    <ul id="task-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
